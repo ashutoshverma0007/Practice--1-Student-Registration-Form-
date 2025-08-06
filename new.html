@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BASICS</title>
+    <style>
+        div{
+            background-color: rgb(246, 139, 139);
+        }
+       
+        .bro{
+            color:rgb(149, 123, 47)
+        }
+    </style>
+</head>
+<body>
+
+<h2>HTML FORM:</h2>
+<form>
+    <label for="name">*Name:</label>
+    <input type="text" id="name" name="fullname" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="pass" id="password"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" min="0" max="150">
+    <br><br>
+    <label for="dob">DATE OF BIRTH:</label>
+    <input type="date" name="dob" id="dob"><br><br>
+     <label for="profile">PROFILE PIC:</label>
+    <input type="file" name="profile" id="profile"><br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">MALE
+   <input type="radio"  name="gender" id="female" value="female">FEMALE
+     <input type="radio"   name="gender" id="other" value="other">OTHER
+
+     <br><br>
+     <label for="hobbies">Hobbies:</label>
+     <input type="checkbox" name="hobbies" id="hobbies" value="reading">Reading
+     <input type="checkbox" name="hobbies" id="hobbies" value="writing">Writing
+     <input type="checkbox" name="hobbies" id="hobbies" value="coding">Coding
+     <br><br>
+     <label for="country">Country:</label>
+     <select name="country" id="country">
+        <option selected disabled>Select an option</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+     </select>
+     <br><br>
+     <label for="message">MESSAGE:</label>
+     <textarea name="message" id="message" cols="30" rows="10"></textarea> <br><br>
+     <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
+    
+</form>
+</body>
+</html>
